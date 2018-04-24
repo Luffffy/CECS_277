@@ -1,13 +1,13 @@
-import java.util.HashMap;
 import java.util.Scanner;
-import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.HashSet;
 
-
-public class QU {
+public class alice {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-		System.out.print("TreeMap(1) or HashMap(2)");
+		System.out.print("TreeSet(1) or HashSet(2)");
 		int choice = in.nextInt();
 		while(choice != 1 || choice != 2)
 		{
@@ -16,11 +16,11 @@ public class QU {
 		}
 		if(choice == 1)
 		{
-			TreeMap<String,Integer> tree = new TreeMap<String,Integer>();
+			TreeSet<String> tree = new TreeSet<String>();
 		}
 		else if(choice ==2)
 		{
-			HashMap<String,Intger> hash = new HashMap<String, Integer>();
+			HashSet<String> hash = new HashSet<String>();
 		}
 	}
 
